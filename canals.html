@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/canals.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo"></div>
+			<div class="search">
+				<form>
+					<input type="text" placeholder="Поиск..." name="search">
+				</form>
+			</div>
+				<span class="search_text">
+					Найти
+				</span>
+			
+				<button onclick="swa()" type="button" class="login">Войти</button>
+					<form>
+						<div id="overlay">
+						  <div class="popup">
+						    <button class="close" title="Закрыть окно" onclick="swa2()"></button>
+						    <p class="zag">Вход</p>
+						    <p class="login_place">
+						    	<input type="text" placeholder="Логин" name="login">
+						    </p>
+						    <p class="login_place">
+						    	<input type="password" placeholder="Пароль" name="password">
+						    </p>
+						    <p class="save" onselectstart="return false" onmousedown="return false">
+						    	<input type="checkbox" placeholder="" name="checkbox" id="check" class="custom_check">
+						    	<label for="check"></label>
+						    	<span>Запомнить</span>
+						    </p>
+						    <p>
+						    	<button onclick="swa2()" type="button" class="login_2">
+						    	Войти</button>
+						    </p>
+						  </div>
+						</div>
+					</form>
+			</div>
+
+		<div class="menu">
+			<div class="menu_block_1">
+				<a href="index.html">
+					<h2 class="films">Фильмы</h2>
+				</a>
+			</div>
+			<div class="menu_block_2">
+				<a href="canals.html">
+					<h2 class="canals">Телеканалы</h2>
+				</a>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="canals_content">
+				<div class="cansls_block one"> 
+				<div class="img_channel">
+					<img src="images/channels/first.png" class="channel_img">
+				</div>
+					<div class="playlist">
+						<h3 class="canals_title">Первый канал</h3><br>
+
+						<span class="play_now">13:00ᅠНовости (с субтитрами)</span><br>
+
+						<span class="play_next">14:00ᅠДавай поженимся</span><br>
+
+						<span class="play_next">15:00ᅠДругие новости</span><br>
+					</div>
+				</div>
+				<div class="cansls_block"> 
+					<div class="img_channel">
+					<img src="images/channels/two.png" class="channel_img">
+				</div>
+					<div class="playlist">
+						<h3 class="canals_title">2x2</h3><br>
+
+						<span class="play_now">13:00ᅠМУЛЬТ ТВ. Сезон 4, 7 серия</span><br>
+
+						<span class="play_next">14:00ᅠПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия</span><br>
+
+						<span class="play_next">15:00ᅠБУРДАШЕВ. Сезон 1, 20 серия</span><br>
+					</div class="img_channel">
+				</div>
+				<div class="cansls_block">
+				<div class="img_channel"> 
+					<img src="images/channels/rbk.png" class="channel_img">
+				</div>
+					<div class="playlist">
+						<h3 class="canals_title">РБК</h3><br>
+
+						<span class="play_now">13:00ᅠДЕНЬ. Горючая смесь: как бороться с суррогатом на АЗС</span><br>
+
+						<span class="play_next">14:00ᅠДЕНЬ. Главные темы</span><br>
+
+						<span class="play_next">15:00ᅠГлавные новости</span><br>
+					</div>
+				</div>
+				<div class="cansls_block"> 
+					<div class="img_channel">
+					<img src="images/channels/amedia.png" class="channel_img">
+				</div>
+					<div class="playlist">
+						<h3 class="canals_title">AMEDIA PREMIUM</h3><br>
+
+						<span class="play_now">13:00ᅠКлиент всегда мёртв</span><br>
+
+						<span class="play_next">14:00ᅠГолодные игры: Сойка-пересмешница. Часть I</span><br>
+
+						<span class="play_next">15:00ᅠСекс в большом городе</span><br>
+					</div>
+				</div>
+				<div class="cansls_block"> 
+					<div class="img_channel">
+					<img src="images/channels/ctc.png" class="channel_img">
+				</div>
+					<div class="playlist">
+						<h3 class="canals_title">CTC</h3><br>
+
+						<span class="play_now">13:00ᅠВоронины 24 сезон 3-4 серия</span><br>
+
+						<span class="play_next">14:00ᅠКухня 7 сезон 5-6 серия</span><br>
+
+						<span class="play_next">15:00ᅠУральские пельмени: Утро в сосновом бреду</span><br>
+					</div>
+				</div>
+				<div class="cansls_block"> 
+					<div class="img_channel">
+						<img src="images/channels/rtv.png" class="channel_img">
+					</div>
+					<div class="playlist">
+						<h3 class="canals_title">РенТВ</h3><br>
+
+						<span class="play_now">13:00ᅠЗагадки человечества с Олегом Шишкиным
+      </span><br>
+
+						<span class="play_next">
+        14:00ᅠТайны мира с Анной Чапман
+      </span><br>
+
+						<span class="play_next">15:00ᅠСамые шокирующие гипотезы: Тайна цивилизации разумных дельфинов</span><br>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="footer_logo">
+				<img src="images/vector.png">
+			</div>
+			<div class="footer_info">
+				<div class="footer_text">
+					426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)
+				</div>
+				<div class="footer_text">
+					+7 (3412) 93-88-61, 43-29-29
+				</div>
+				<div class="htc">
+				<a href="https://htc-cs.ru/" target="blank">
+				<h4>htc-cs.ru</h4>
+				</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script>
+var b = document.getElementById('overlay');
+function swa(){
+	b.style.visibility = 'visible';
+	b.style.opacity = '1';
+	b.style.transition = 'all 0.7s ease-out 0s';
+}
+function swa2(){
+	b.style.visibility = 'hidden';
+	b.style.opacity = '0';
+}
+</script>
+
+</body>	
+</html>
