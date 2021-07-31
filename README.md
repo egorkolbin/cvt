@@ -1,1 +1,1 @@
-# https://egorkolbin.github.io/cvt/canals.html
+# https://egorkolbin.github.io/cvt/
